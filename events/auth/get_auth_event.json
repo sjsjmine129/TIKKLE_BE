@@ -1,0 +1,8 @@
+{
+  "resource": "/get_auth_event",
+  "path": "/get_auth_event",
+  "httpMethod": "GET",
+  "headers": {},
+  "queryStringParameters": null,
+  "body": {}
+}

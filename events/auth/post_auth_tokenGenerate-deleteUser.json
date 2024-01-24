@@ -1,0 +1,10 @@
+{
+	"resource": "/post_auth_tokenGenerate",
+	"path": "/post_auth_tokenGenerate",
+	"httpMethod": "POST",
+	"headers": {},
+	"queryStringParameters": null,
+	"body": {
+		"id": 27
+	}
+}

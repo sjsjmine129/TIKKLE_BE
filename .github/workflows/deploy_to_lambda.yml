@@ -1,0 +1,40 @@
+name: Deploy to AWS Lambda
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "18"
+
+      - name: Package Lambda function
+        run: zip -r lambda.zip .
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-2
+
+      - name: Deploy to Lambda tikkle_dev
+        if: github.ref == 'refs/heads/develop'
+        run: |
+          aws lambda update-function-code --function-name tikkle_dev --zip-file fileb://lambda.zip
+
+      - name: Deploy to Lambda tikkle
+        if: github.ref == 'refs/heads/main'
+        run: |
+          aws lambda update-function-code --function-name tikkle --zip-file fileb://lambda.zip

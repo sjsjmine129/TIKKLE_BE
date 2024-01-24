@@ -1,0 +1,10 @@
+{
+  "resource": "/post_auth_appleLogin",
+  "path": "/post_auth_appleLogin",
+  "httpMethod": "POST",
+  "headers": {},
+  "queryStringParameters": null,
+  "body": {
+    "apple_id": "000724.0c2036c2d27b4f239826ac8af3fb9de0.0402"
+  }
+}

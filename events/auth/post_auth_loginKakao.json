@@ -1,0 +1,16 @@
+{
+  "resource": "/post_auth_loginKakao",
+  "path": "/post_auth_loginKakao",
+  "httpMethod": "POST",
+  "headers": {},
+  "queryStringParameters": null,
+  "body": {
+    "name": "12eff",
+    "birthday": "2007-08-22",
+    "phone": "01044444444",
+    "gender": "male",
+    "source_tikkling_id": "34",
+    "kakao_email": "Ddddd@dddd",
+    "kakao_image": "https://asdasdasdasd"
+  }
+}

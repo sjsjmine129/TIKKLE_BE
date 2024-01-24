@@ -1,0 +1,26 @@
+{
+  "resource": "/post_product_inputInfo",
+  "path": "/post_product_inputInfo",
+  "httpMethod": "POST",
+  "headers": {
+    "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjcsImlhdCI6MTcwMzczMjc5MywiZXhwIjo5MDAwMDAwMDAxNzAzNzMzMDAwLCJpc3MiOiJMaUZvbGkifQ.XKvRcbkWP9a4J-lfDvcZ6O01patJzvuS1n11d4VPtBQ,eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjcsImlhdCI6MTcwMzczMjc5MywiZXhwIjoxNzA2MzI0NzkzLCJpc3MiOiJMaUZvbGkifQ.6Pox2D4qm0ABi_w2AjY8hbkbIDODR8arDi7p9pNs12g"
+  },
+  "queryStringParameters": null,
+  "body": {
+    "data": {
+      "product_id": 90,
+      "p_name": "[구찌 GUCCI] 510302 CAO0G 1000 여성 숄더백",
+      "type": "숄더백",
+      "material": "소가죽",
+      "color": "블랙",
+      "size": "SIZE - 26cmx18cmx9cm",
+      "manufacturer_importer": "구찌/(주)트랜드메카-병행수입",
+      "origin_country": "브랜드국-이탈리아(ITALY)(원산지:이탈리아)",
+      "precautions": "화장품,향수,마찰등으로 변색,탈색,이염등 상품이 손상 될수 있으니 주의하세요. / 충격과 비틀림에 의한 파손에 주의하세요. / 피부가 민감하여 알러지 반응이 있을시 착용을 중지하세요. / 천연가죽 특성상 작은상처나 가죽결 및 약간의 색조차이가 발생할 수 있으므로, 이점은 결함으로 볼 수 없습니다. / 취급시 수분(물, 땀, 향수 등), 기름, 습기(여름철 습도 등), 온도와 직사광선을 피하여 보관, 사용하시기 바랍니다.",
+      "quality_assurance_standard": "관련 법 및 소비자분쟁해결 규정에 따름",
+      "as_manager": "(주)트랜드메카",
+      "as_phone": "1599-8246"
+    },
+    "table_id": 3
+  }
+}

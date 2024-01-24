@@ -1,0 +1,10 @@
+{
+	"resource": "/post_auth_phoneCheck",
+	"path": "/post_auth_phoneCheck",
+	"httpMethod": "POST",
+	"headers": {},
+	"queryStringParameters": null,
+	"body": {
+		"phone": "01011111111"
+	}
+}

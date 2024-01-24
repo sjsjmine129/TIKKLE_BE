@@ -1,0 +1,138 @@
+{
+    "resource": "/post_product_enrollment",
+    "path": "/post_product_enrollment",
+    "httpMethod": "POST",
+    "headers": {
+        "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjcsImlhdCI6MTcwMzczMjc5MywiZXhwIjo5MDAwMDAwMDAxNzAzNzMzMDAwLCJpc3MiOiJMaUZvbGkifQ.XKvRcbkWP9a4J-lfDvcZ6O01patJzvuS1n11d4VPtBQ,eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjcsImlhdCI6MTcwMzczMjc5MywiZXhwIjoxNzA2MzI0NzkzLCJpc3MiOiJMaUZvbGkifQ.6Pox2D4qm0ABi_w2AjY8hbkbIDODR8arDi7p9pNs12g"
+    },
+    "queryStringParameters": null,
+    "body": {
+        "product_list": [
+            {
+                "name": "test6",
+                "price": 350000,
+                "category_id": 3,
+                "brand_id": 3,
+                "thumbnail_image": "https://www.biztrend.co.kr/company_img_folder/dream1356/img_500/GUCCI/74d26cb4c0974301f4d910f8c24480db.jpg",
+                "images": {
+                    "1": "https://www.biztrend.co.kr/company_img_folder/dream1356/GUCCI/cd5c025c2ef7693b446b98004ab75635.jpg",
+                    "2": "https://www.biztrend.co.kr/company_img_folder/dream1356/GUCCI/71e3cc95647b082cf1721b9ee65eabc1.jpg",
+                    "3": "https://www.biztrend.co.kr/company_img_folder/dream1356/img_500/GUCCI/74d26cb4c0974301f4d910f8c24480db.jpg",
+                    "4": "https://www.biztrend.co.kr/company_img_folder/dream1356/GUCCI/9eede9c6189cf5a58c7cbae9e3720421.jpg",
+                    "5": "https://www.biztrend.co.kr/company_img_folder/dream1356/GUCCI/88ad0ec69e79a97f9a65da8582dd4544.jpg",
+                    "6": "https://www.biztrend.co.kr/company_img_folder/dream1356/GUCCI/96139eeb87fa17f6bcf904a7ef7417c3.jpg",
+                    "7": "https://www.biztrend.co.kr/company_img_folder/dream1356/GUCCI/39aa8578bddb5beca281da620533be8f.jpg",
+                    "8": "https://www.biztrend.co.kr/company_img_folder/dream1356/GUCCI/09d2ac856e3ed99170d663a1f44666aa.jpg",
+                    "9": "https://www.biztrend.co.kr/company_img_folder/dream1356/GUCCI/56278903d3cd2c29ebb78bc17c095c26.jpg",
+                    "10": "https://www.biztrend.co.kr/company_img_folder/dream1356/GUCCI/edd4f4710e91bf5c18f2d5aa18271704.jpg",
+                    "11": "https://www.biztrend.co.kr/company_img_folder/dream1356/GUCCI/dd13b6a253082b61ea7ba6496a7b4241.jpg",
+                    "12": "https://www.biztrend.co.kr/company_img_folder/dream1356/GUCCI/27854a867f2c670517a56edd78f8b6d8.jpg"
+                },
+                "description": "",
+                "product_option_list": [
+                    {
+                        "category": "color",
+                        "option": "red",
+                        "additional_amount": 0
+                    },
+                    {
+                        "category": "color",
+                        "option": "yellow",
+                        "additional_amount": 0
+                    },
+                    {
+                        "category": "color",
+                        "option": "blue",
+                        "additional_amount": 0
+                    },
+                    {
+                        "category": "size",
+                        "option": "S",
+                        "additional_amount": 5000
+                    },
+                    {
+                        "category": "size",
+                        "option": "L",
+                        "additional_amount": 10000
+                    }
+                ],
+                "option_combination_list": [
+                    {
+                        "color": {
+                            "category": "color",
+                            "option": "red",
+                            "additional_amount": 0
+                        },
+                        "size": {
+                            "category": "size",
+                            "option": "L",
+                            "additional_amount": 5000
+                        },
+                        "quantity": 100
+                    },
+                    {
+                        "color": {
+                            "category": "color",
+                            "option": "yellow",
+                            "additional_amount": 0
+                        },
+                        "size": {
+                            "category": "size",
+                            "option": "L",
+                            "additional_amount": 5000
+                        }
+                    },
+                    {
+                        "color": {
+                            "category": "color",
+                            "option": "blue",
+                            "additional_amount": 0
+                        },
+                        "size": {
+                            "category": "size",
+                            "option": "L",
+                            "additional_amount": 5000
+                        }
+                    },
+                    {
+                        "color": {
+                            "category": "color",
+                            "option": "red",
+                            "additional_amount": 0
+                        },
+                        "size": {
+                            "category": "size",
+                            "option": "S",
+                            "additional_amount": 5000
+                        },
+                        "quantity": 100
+                    },
+                    {
+                        "color": {
+                            "category": "color",
+                            "option": "yellow",
+                            "additional_amount": 0
+                        },
+                        "size": {
+                            "category": "size",
+                            "option": "S",
+                            "additional_amount": 5000
+                        }
+                    },
+                    {
+                        "color": {
+                            "category": "color",
+                            "option": "blue",
+                            "additional_amount": 0
+                        },
+                        "size": {
+                            "category": "size",
+                            "option": "S",
+                            "additional_amount": 5000
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "resource": "/post_auth_IdDuplicationCheck",
+  "path": "/post_auth_IdDuplicationCheck",
+  "httpMethod": "POST",
+  "headers": {},
+  "queryStringParameters": null,
+  "body": {
+    "inputId": "su"
+  }
+}

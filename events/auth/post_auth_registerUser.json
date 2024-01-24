@@ -1,0 +1,15 @@
+{
+	"resource": "/post_auth_registerUser",
+	"path": "/post_auth_registerUser",
+	"httpMethod": "POST",
+	"headers": {},
+	"queryStringParameters": null,
+	"body": {
+		"name": "12e",
+		"birthday": "2007-08-22",
+		"nick": "12111",
+		"phone": "01053783522",
+		"gender": "male",
+		"source_tikkling_id": "293"
+	}
+}
