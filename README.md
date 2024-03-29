@@ -14,12 +14,15 @@
 
 이제 티클과 함께, 친구가 정말 갖고 싶어하는 것을 선물 해주세요!
 작은 정성으로도 의미 있는 축하의 마음을 나눠보세요.
+
 ## 링크
+
 - [‎Notion](https://eumseungju.notion.site/RN-TIKKLE-6d775f688dc04a41bb54d1b9b4cff18d?pvs=4)
 - [‎앱스토어 다운로드](https://apps.apple.com/kr/app/%ED%8B%B0%ED%81%B4/id6471217574)
-- [‎플레이 스토어 다운로드](https://play.google.com/store/apps/details?id=com.tikkle_revive_ios&hl=ko-KR)
+- [‎플레이스토어 다운로드](https://play.google.com/store/apps/details?id=com.tikkle_revive_ios&hl=ko-KR)
 
 ## 앱 구조
+
 <a>
    <img src="Group771.png" alt="tincle" width="700">
 </a>
